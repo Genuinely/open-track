@@ -1,5 +1,26 @@
 # Ardnassac
 
+## Requirements
+```
+Needs Python 3.12
+```
+
+## Install instructions
+
+```
+pip install requirements.txt
+python app.py (creates DB and creates a .screenshots folder in your ~)
+If it asks popup asking if it can use screen, say yes
+
+```
+
+## Params:
+```
+Can change # of CPU cores used for OCR.
+Screenshot time interval
+```
+
+
 Ardnassac let's you search your past. It's a proof of concept, trying to reproduce the amazing product developed at [rewind.ai](rewind.ai) with open source tools.
 
 It uses the python [PIL](https://pillow.readthedocs.io/en/stable/) library to take a screenshot of your entire screen every 3 seconds, and extracts text using the [tesseract](https://tesseract-ocr.github.io/) OCR software. The results are then stored in a `sqlite3` database, ready for querying.
@@ -20,3 +41,4 @@ Oh, and yes, the code is terrible, that's the point of a PoC 🙃.
 * fuzzy search
     * requires the ocr data gets encoded into a semi-strict schema...currently the strings are not cleaned
 * plug-in to an llm.
+
