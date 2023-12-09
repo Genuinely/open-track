@@ -1,8 +1,6 @@
 import base64
 import requests
-
-# OpenAI API Key
-api_key = "your_api_key"  # add read from env
+import os
 
 # Function to encode the image
 def encode_image(image_path):
@@ -17,7 +15,7 @@ base64_image = encode_image(image_path)
 
 headers = {
   "Content-Type": "application/json",
-  "Authorization": f"Bearer {api_key}"
+  "Authorization": f"Bearer {os.environ['OPENAI_KEY']}"
 }
 
 payload = {

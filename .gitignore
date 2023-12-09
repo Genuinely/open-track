@@ -1,3 +1,4 @@
 data.db
 screenshots/*
 .DS_Store
+.env
