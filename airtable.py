@@ -3,15 +3,21 @@ from os import environ
 from dotenv import load_dotenv
 import pandas as pd
 
-def get_pd_dataframe():
-    api = Api(environ["AIRTABLE_API_KEY"])
-    table = api.table("appSBKTKW43QcbpRf", "tblYS5wjMHpRd0WNa")
-    data = table.all()
-    return pd.DataFrame.from_records((r['fields'] for r in data))
+class AirtableInterface():
+    def __init__(self, api_key):
+        self.api = Api(api_key)
+        self.table = self.api.table("appSBKTKW43QcbpRf", "tblYS5wjMHpRd0WNa")
+
+    def get_pd_dataframe(self):
+        return pd.DataFrame.from_records((r['fields'] for r in self.table.all()))
+
+    def persist_in_airtable(self, json_payload):
+        self.table.create(json_payload)
 
 if __name__ == "__main__":
     load_dotenv()
-    print(get_pd_dataframe())
+    airt = AirtableInterface(environ["AIRTABLE_API_KEY"])
+    print(airt.get_pd_dataframe())
 
 
 # table.create({"Name": "Bob"})

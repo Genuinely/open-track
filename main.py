@@ -5,7 +5,7 @@ from concurrent.futures import ProcessPoolExecutor
 from multiprocessing import Manager, Process
 from dotenv import load_dotenv
 from time import sleep
-
+from airtable import AirtableInterface
 # import json
 
 load_dotenv()
@@ -40,8 +40,8 @@ def process_frame(img_buffer, lock, screenshot_folder):
 def submit_gpt4_vision_request(img_buffer):
     print("BATCH PROCESSING IMAGES : %s" % img_buffer)
     # TODO - call understanding.py
-
-    # TODO - save GPT4 vision output in DB
+    
+    # TODO - save GPT4 vision output in Airtable
     pass
 
 
