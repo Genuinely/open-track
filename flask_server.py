@@ -51,8 +51,8 @@ def category_time():
              title='Time Spent on Different Categories by Website/Program',
              labels={'time_spent':'Time Spent', 'website_or_program':'Website/Program'})
     graphJSON = dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-    return graphJSON
-    # return jsonify(grouped_data.to_dict(orient='records'))
+    return jsonify(graphJSON)
+    # return jsonify(graphJSON)
 
 @app.route('/proj_time', methods=['GET'])
 def proj_time():
