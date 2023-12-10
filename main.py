@@ -6,6 +6,7 @@ from multiprocessing import Manager, Process
 from dotenv import load_dotenv
 from time import sleep
 from airtable import AirtableInterface
+from screenshots_to_json import batch_gpt_vision
 # import json
 
 load_dotenv()
@@ -37,16 +38,19 @@ def process_frame(img_buffer, lock, screenshot_folder):
         print(f"[{now()}] Exception: {str(e)}")
 
 
-def submit_gpt4_vision_request(img_buffer):
+def submit_gpt4_vision_request(airtableInterface, img_buffer, batch_size):
     print("BATCH PROCESSING IMAGES : %s" % img_buffer)
-    # TODO - call understanding.py
-    
-    # TODO - save GPT4 vision output in Airtable
-    pass
+    json_output = batch_gpt_vision(img_buffer, batch_size)
+    for output in json_output:
+        print(output)
+        airtableInterface.persist_json_in_airtable(output)
+    print("BATCH PROCESSING done")
 
 
 def run_gpt_ps(img_buffer, tmp_buffer, lock):
-    ocr_interval = int(environ["OCR_INTERVAL"])
+    ocr_interval = int(environ["GPT_INTERVAL"])
+    batch_size = int(environ['GPT_BATCH_SIZE'])
+    airt = AirtableInterface(environ['AIRTABLE_API_KEY'], environ['AIRTABLE_BASE_ID'], environ['AIRTABLE_TABLE_KEY'])
     while True:
         sleep(ocr_interval)
         lock.acquire()
@@ -58,7 +62,7 @@ def run_gpt_ps(img_buffer, tmp_buffer, lock):
                 # print("Cleared img_buffer : length from %s --> to %s" % (len(tmp_buffer), len(img_buffer)))
         finally:
             lock.release()
-            submit_gpt4_vision_request(tmp_buffer)
+            submit_gpt4_vision_request(airt, tmp_buffer, batch_size)
 
             while len(tmp_buffer) > 0:
                 tmp_buffer.pop()

@@ -1,12 +1,11 @@
-import base64
-import requests
-import os
+from base64 import b64encode
+from requests import post
+from os import environ
 
 # Function to encode the image
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode("utf-8")
-
+        return b64encode(image_file.read()).decode("utf-8")
 
 # Path to your image
 image_path = "computer_screenshot_heading.png"
@@ -16,7 +15,7 @@ base64_image = encode_image(image_path)
 
 headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {os.environ['OPENAI_KEY']}",
+    "Authorization": f"Bearer {environ['OPENAI_KEY']}",
 }
 
 payload = {
@@ -39,7 +38,7 @@ payload = {
     "max_tokens": 300,
 }
 
-response = requests.post(
+response = post(
     "https://api.openai.com/v1/chat/completions", headers=headers, json=payload
 )
 

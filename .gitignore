@@ -2,6 +2,5 @@ data.db
 screenshots/*
 .DS_Store
 .env
-
 myenv/
-__pycache__/airtable.cpython-312.pyc
+__pycache__/*
