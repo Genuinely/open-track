@@ -6,7 +6,7 @@ import pandas as pd
 class AirtableInterface():
     def __init__(self, api_key):
         self.api = Api(api_key)
-        self.table = self.api.table("appSBKTKW43QcbpRf", "tblYS5wjMHpRd0WNa")
+        self.table = self.api.table(environ["AIRTABLE_BASE_ID"], "Snapshots")
 
     def get_pd_dataframe(self):
         return pd.DataFrame.from_records((r['fields'] for r in self.table.all()))
