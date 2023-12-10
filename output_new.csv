@@ -1,0 +1,120 @@
+time,program_name,website,category,project,description
+2023-12-09T22:04:26,Visual Studio Code,,deep work,machine learning project,"Editing Python code for machine learning, possibly related to video processing."
+2023-12-09T22:04:31,Visual Studio Code,,deep work,machine learning project,Continuing work on the Python code for machine learning in Visual Studio Code.
+2023-12-09T22:04:36,Visual Studio Code,,deep work,machine learning project,Working on a machine learning project with Python scripts in Visual Studio Code.
+2023-12-09T22:04:41,Google Chrome,youtube.com,entertainment,goofing off,Browsing YouTube with watch history turned off.
+2023-12-09T22:04:46,Google Chrome,google.com,light work,goofing off,Possibly taking a break with a Google search page open and a new tab.
+2023-12-09T22:04:51,Google Chrome,arxiv.org,deep work,machine learning project,"Reading an academic paper on arxiv.org, potentially for research or study."
+2023-12-09T22:04:56,Google Chrome,arxiv.org,deep work,machine learning project,"Studying an academic paper from arxiv.org, possibly for machine learning research."
+2023-12-09T22:05:01,Google Chrome,arxiv.org,deep work,machine learning project,"Analyzing a research paper on arxiv.org, related to machine learning or video generation."
+2023-12-09T22:05:06,Google Chrome,arxiv.org,deep work,machine learning project,"Continuing to investigate a scientific paper on arxiv.org, likely for learning or project advancement."
+2023-12-09T22:05:11,Google Chrome,arxiv.org,deep work,machine learning project,"Reviewing details of a publication on arxiv.org, with a focus on diffusion models."
+2023-12-09T22:05:16,Visual Studio Code,arxiv.org,deep work,machine learning project,Reading a research paper from arXiv and writing or debugging code related to machine learning.
+2023-12-09T22:05:21,Visual Studio Code,arxiv.org,deep work,machine learning project,Viewing a research paper on arXiv and possibly refining code in the context of the research.
+2023-12-09T22:05:26,Visual Studio Code,arxiv.org,deep work,machine learning project,Analyzing figures from a research paper on arXiv and navigating through the project's file structure.
+2023-12-09T22:05:31,Visual Studio Code,arxiv.org,deep work,machine learning project,Studying a diagram from a paper on arXiv for understanding or implementation in code.
+2023-12-09T22:05:36,Visual Studio Code,,deep work,machine learning project,"Writing or editing a Python script for machine learning, possibly related to video analysis."
+2023-12-09T22:05:41,Visual Studio Code,,deep work,machine learning project,"Focused on a code editor, editing a Python file for what could be a machine learning application."
+2023-12-09T22:05:46,Visual Studio Code,,deep work,machine learning project,"In the process of coding, possibly running or debugging a Python script related to machine learning."
+2023-12-09T22:05:51,Visual Studio Code,,deep work,machine learning project,"Further coding in Python within Visual Studio Code, likely working on a complex function or method."
+2023-12-09T22:05:56,Visual Studio Code,arxiv.org,deep work,machine learning project,Comparing a 3D U-Net architecture diagram from a research paper with the project codebase.
+2023-12-09T22:06:01,Visual Studio Code,arxiv.org,deep work,machine learning project,Comparing a 3D U-Net architecture diagram from a research paper with the project codebase.
+2023-12-09T22:06:06,"Google Chrome, Visual Studio Code",arxiv.org,deep work,machine learning project,Reading a research paper likely related to machine learning while working with Python code in a project in Visual Studio Code.
+2023-12-09T22:06:11,"Google Chrome, Visual Studio Code",stack overflow,deep work,machine learning project,Looking up information or solutions on Stack Overflow while actively developing in Visual Studio Code.
+2023-12-09T22:06:16,"Google Chrome, Visual Studio Code",stack overflow,deep work,machine learning project,"Typing a search query in Stack Overflow, possibly seeking programming help while working on code in Visual Studio Code."
+2023-12-09T22:06:21,"Google Chrome, Visual Studio Code",stack overflow,deep work,machine learning project,"Reading a Stack Overflow thread about image processing in Python, which may be related to the project in Visual Studio Code."
+2023-12-09T22:06:26,Google Chrome,stack overflow,deep work,machine learning project,Viewing a specific Stack Overflow question about image processing using Python which could be related to an issue in a machine learning project.
+2023-12-09T22:06:31,Google Chrome,stack overflow,deep work,machine learning project,Scrolling through a Stack Overflow thread for solutions related to image processing in Python.
+2023-12-09T22:06:36,Xcode,,deep work,mobile app dev,"Editing code in Xcode for a mobile application development project, specifically working on an image picker functionality."
+2023-12-09T22:06:41,Xcode,,light work,mobile app dev,Reviewing or writing Swift code for an iOS mobile application in Xcode.
+2023-12-09T22:06:46,Xcode,,light work,mobile app dev,Working on implementing or debugging image selection features within an iOS app using Xcode.
+2023-12-09T22:06:51,Xcode,,light work,mobile app dev,"Focused on coding in Xcode, possibly adjusting image picker controller properties for an iOS app."
+2023-12-09T22:06:56,Xcode,,deep work,mobile app dev,Writing code for an image picker feature in a SwiftUI-based iOS app.
+2023-12-09T22:07:01,Xcode,,deep work,mobile app dev,Implementing and refining the image selection functionality for an iOS app.
+2023-12-09T22:07:06,Xcode,,deep work,mobile app dev,Continuing development of an image picker in a mobile application.
+2023-12-09T22:07:11,Xcode,,deep work,mobile app dev,Coding the image selection interface for an iOS app project.
+2023-12-09T22:07:16,Xcode,,deep work,mobile app dev,Working with SwiftUI to create UI elements for an app.
+2023-12-09T22:07:21,Xcode,,deep work,mobile app dev,Enhancing image loading functionality in an iOS app.
+2023-12-09T22:07:26,Xcode,,deep work,mobile app dev,Developing image processing methods within an app project.
+2023-12-09T22:07:31,Xcode,,deep work,mobile app dev,Working on transforming images with Core Image filters in a mobile application.
+2023-12-09T22:07:36,Xcode,,deep work,mobile app dev,Implementing and testing image filtering capabilities in an iOS application.
+2023-12-09T22:07:41,Xcode,,deep work,mobile app dev,Writing and debugging Swift code for an image filtering mobile app.
+2023-12-09T22:07:46,Xcode,,deep work,mobile app dev,"Editing code, likely debugging or developing features for a mobile application."
+2023-12-09T22:07:51,Xcode,,deep work,mobile app dev,"Editing code, possibly refining or writing new functions for a mobile application."
+2023-12-09T22:07:56,Xcode,,deep work,mobile app dev,Continuing to work on mobile app development within Xcode.
+2023-12-09T22:08:01,Xcode,,deep work,mobile app dev,"Working on a mobile app, dealing with coding errors or issues in Xcode."
+2023-12-09T22:08:06,Google Chrome,stackoverflow.com,light work,goofing off,"Browsing Stack Overflow, might be looking for programming assistance or exploring topics."
+2023-12-09T22:08:11,Google Chrome,youtube.com,entertainment,goofing off,"Watching NBA clips on YouTube, leisure activity."
+2023-12-09T22:08:16,Google Chrome,youtube.com,entertainment,goofing off,Perusing NBA video content on YouTube for entertainment.
+2023-12-09T22:08:21,Google Chrome,youtube.com,entertainment,goofing off,Continuing to watch or search for NBA-related videos on YouTube.
+2023-12-09T22:08:26,Google Chrome,youtube.com,entertainment,goofing off,"Watching a specific NBA highlights video on YouTube, enjoying entertainment content."
+2023-12-09T22:08:31,Google Chrome,youtube.com,entertainment,goofing off,Watching NBA 'Superstar 1v1' moments on YouTube.
+2023-12-09T22:08:36,Google Chrome,youtube.com,entertainment,goofing off,Watching NBA 'Superstar 1v1' moments on YouTube.
+2023-12-09T22:08:41,Google Chrome,youtube.com,entertainment,goofing off,Continuing to watch NBA 'Superstar 1v1' moments on YouTube.
+2023-12-09T22:08:46,Google Chrome,youtube.com,entertainment,goofing off,Still engaged in watching NBA 'Superstar 1v1' highlights on YouTube.
+2023-12-09T22:08:51,Google Chrome,youtube.com,entertainment,goofing off,Watching basketball game highlights and reading video comments on YouTube.
+2023-12-09T22:08:56,Google Chrome,youtube.com,entertainment,goofing off,Continued engagement with NBA 'Superstar 1v1' video content on YouTube.
+2023-12-09T22:09:01,Google Chrome,youtube.com,entertainment,goofing off,Watching an NBA game involving the Golden State Warriors on YouTube.
+2023-12-09T22:09:06,Google Chrome,youtube.com,entertainment,goofing off,Viewing NBA 'Superstar 1v1' video and monitoring game score on YouTube.
+2023-12-09T22:09:11,Google Chrome,youtube.com,entertainment,goofing off,Looking at a close-up action shot from an NBA game on YouTube.
+2023-12-09T22:09:16,Google Chrome,youtube.com,entertainment,goofing off,Observing an NBA match between Cleveland and Portland on YouTube.
+2023-12-09T22:09:21,Google Chrome,mail.google.com,light work,machine learning project,"Checking Gmail inbox, possibly related to 'machine learning project' due to a tab with a 'pdf' related to it open."
+2023-12-09T22:09:26,Google Chrome,mail.google.com,light work,mobile app dev,"Composing an email, possibly related to the mobile app development."
+2023-12-09T22:09:31,Google Chrome,mail.google.com,light work,mobile app dev,"Drafting an email to Ryan, continuing the mobile app development work."
+2023-12-09T22:09:36,Google Chrome,mail.google.com,light work,mobile app dev,Writing an email about a technical issue with the mobile app backend.
+2023-12-09T22:09:41,Google Chrome,mail.google.com,light work,mobile app dev,Creating an email to request assistance on a mobile app development issue.
+2023-12-09T22:09:46,Google Chrome,mail.google.com,light work,mobile app dev,"Adding details to an email, likely asking for help with the mobile app."
+2023-12-09T22:09:51,Google Chrome,mail.google.com,light work,mobile app dev,Finalizing an email regarding mobile app development challenges.
+2023-12-09T22:09:56,Google Chrome,mail.google.com,light work,mobile app dev,Completing and getting ready to send an email about a problem with the mobile app.
+2023-12-09T22:10:01,Google Chrome,mail.google.com,light work,mobile app dev,Sending an email to address a technical issue in mobile app development.
+2023-12-09T22:10:06,Google Chrome,mail.google.com,light work,mobile app dev,Composing an email response regarding an issue with a mobile app project.
+2023-12-09T22:10:11,Google Chrome,mail.google.com,light work,mobile app dev,Composing an email response regarding an issue with a mobile app project.
+2023-12-09T22:10:16,Google Chrome,mail.google.com,light work,mobile app dev,Composing an email regarding mobile app development issues.
+2023-12-09T22:10:21,Google Chrome,mail.google.com,light work,mobile app dev,Drafting an email related to mobile app debugging.
+2023-12-09T22:10:26,Google Chrome,mail.google.com,light work,mobile app dev,Attending to mobile app backend problems communicated via email.
+2023-12-09T22:10:31,Google Chrome,google.com,goofing off,goofing off,"Idle with a new tab open, possibly taking a short break."
+2023-12-09T22:10:36,Google Chrome,google.com,entertainment,ski trip,"Searching for ski resorts in Reno, likely planning a trip."
+2023-12-09T22:10:41,Google Chrome,google.com,entertainment,ski trip,Looking at different ski resorts options in Reno with a map view.
+2023-12-09T22:10:46,Google Chrome,google.com,entertainment,ski trip,"Continuing to search for ski resorts, reviewing 'People also ask' section."
+2023-12-09T22:10:51,Google Chrome,skirose.com,entertainment,ski trip,"Visiting a specific ski resort's website, possibly to check amenities or book a stay."
+2023-12-09T22:10:56,Google Chrome,skirose.com,entertainment,ski trip,Exploring activities and promotions at Mt. Rose Ski Tahoe resort.
+2023-12-09T22:11:01,Google Chrome,skirose.com,entertainment,ski trip,Possible sign-up for news and updates from Mt. Rose Ski Tahoe resort.
+2023-12-09T22:11:06,Google Chrome,skirose.com,light work,ski trip,Looking at contact information for Mt. Rose Ski Tahoe.
+2023-12-09T22:11:11,Google Chrome,skirose.com,entertainment,ski trip,Browsing the homepage of Mt. Rose Ski Tahoe resort.
+2023-12-09T22:11:16,Google Chrome,skirose.com/snow-report/,light work,ski trip,Checking the snow report for Mt. Rose Ski Tahoe.
+2023-12-09T22:11:21,Google Chrome,skirose.com/snow-report/,light work,ski trip,Viewing lift status at Mt. Rose Ski Tahoe.
+2023-12-09T22:11:26,Google Chrome,skirose.com/season-pass-perks/,light work,ski trip,Looking at season pass perks for Mt. Rose Ski Tahoe.
+2023-12-09T22:11:31,Google Chrome,skirose.com/lift-tickets-specials/,light work,ski trip,Exploring lift ticket options and specials at Mt. Rose Ski Tahoe.
+2023-12-09T22:11:36,Google Chrome,skirose.com/snow-report,entertainment,ski trip,Checking snow conditions and weather at a ski resort.
+2023-12-09T22:11:41,Google Chrome,skirose.com/snow-report,entertainment,ski trip,Looking at snow report and lift ticket options for a ski resort.
+2023-12-09T22:11:46,Google Chrome,skirose.com/lift-tickets-specials,entertainment,ski trip,Exploring lift ticket prices and rental options for planning a ski trip.
+2023-12-09T22:11:51,Google Chrome,skirose.com/lift-tickets-specials,entertainment,ski trip,Considering purchasing lift tickets and rentals for a ski trip.
+2023-12-09T22:11:56,Google Chrome,mail.google.com,light work,goofing off,Checking emails in Gmail
+2023-12-09T22:12:01,Google Chrome,mail.google.com,light work,goofing off,Composing an email in Gmail
+2023-12-09T22:12:06,Google Chrome,mail.google.com,light work,goofing off,Typing the recipient's email address in a draft email
+2023-12-09T22:12:11,Google Chrome,mail.google.com,light work,machine learning project,Composing an email related to a machine learning project
+2023-12-09T22:12:16,Google Chrome,mail.google.com,light work,machine learning project,Writing an update on the machine learning project
+2023-12-09T22:12:21,Google Chrome,mail.google.com,light work,machine learning project,Continuing to compose an email about machine learning project progress
+2023-12-09T22:12:26,Google Chrome,mail.google.com,light work,machine learning project,Further detailing progress on the machine learning project in an email
+2023-12-09T22:12:31,Google Chrome,gmail.com,deep work,machine learning project,Composing an email update on the progress of a machine learning project.
+2023-12-09T22:12:36,Google Chrome,gmail.com,deep work,machine learning project,Saving a draft email related to a machine learning project.
+2023-12-09T22:12:41,Google Chrome,gmail.com,deep work,machine learning project,Editing an email draft to include a mention of implementing a feature for a machine learning project.
+2023-12-09T22:12:46,Google Chrome,mail.google.com,deep work,machine learning project,Composing an email related to a machine learning project.
+2023-12-09T22:12:51,Google Chrome,mail.google.com,deep work,machine learning project,"Composing an email, possibly saving a draft, concerning a machine learning project."
+2023-12-09T22:12:56,Google Chrome,mail.google.com,deep work,machine learning project,Continuing to compose an email about machine learning project progress.
+2023-12-09T22:13:01,Google Chrome,mail.google.com,deep work,machine learning project,Editing the machine learning project email to include more details about the project.
+2023-12-09T22:13:06,Google Chrome,mail.google.com,deep work,machine learning project,Writing an email regarding progress on a machine learning project.
+2023-12-09T22:13:11,Google Chrome,mail.google.com,deep work,machine learning project,Continuing to write an email about a machine learning project.
+2023-12-09T22:13:16,Google Chrome,mail.google.com,deep work,machine learning project,Finishing up an email explaining the implementation details of a feature in a machine learning project.
+2023-12-09T22:13:21,Google Chrome,mail.google.com,deep work,machine learning project,Composing an email update regarding progress on a machine learning project.
+2023-12-09T22:13:26,Google Chrome,mail.google.com,deep work,machine learning project,Revising a draft email related to a machine learning project.
+2023-12-09T22:13:31,Google Chrome,mail.google.com,deep work,machine learning project,"Finalizing an email concerning a machine learning project, focusing on feature extraction using a U-net architecture."
+2023-12-09T22:13:36,Google Chrome,gmail.com,deep work,machine learning project,Composing an email related to a machine learning project.
+2023-12-09T22:13:41,Google Chrome,arxiv.org,deep work,machine learning project,Reading an academic paper about video diffusion models from arxiv.org.
+2023-12-09T22:13:46,Google Chrome,arxiv.org,deep work,machine learning project,Continuing to read an academic paper on video modeling from arxiv.org.
+2023-12-09T22:13:51,Google Chrome,arxiv.org,deep work,machine learning project,Reviewing a research paper on unconditional video modeling on UCF101.
+2023-12-09T22:13:56,Google Chrome,arxiv.org,deep work,machine learning project,Looking at performance metrics comparison in a machine learning research paper.
+2023-12-09T22:14:01,Google Chrome,mail.google.com,light work,machine learning project,Composing an email related to the machine learning project.
+2023-12-09T22:14:06,Google Chrome,mail.google.com,deep work,machine learning project,Composing an email update on progress made in a machine learning project.
+2023-12-09T22:14:11,Google Chrome,gmail.com,deep work,machine learning project,"Composing an email related to a machine learning project, discussing progress on feature extraction with U-net"
+2023-12-09T22:14:16,Google Chrome,mail.google.com,machine learning project,Composing an email update related to ongoing progress in a machine learning project.
