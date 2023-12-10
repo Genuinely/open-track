@@ -2,4 +2,5 @@ data.db
 screenshots/*
 .DS_Store
 .env
-__pycache__/
+myenv/
+__pycache__/*
